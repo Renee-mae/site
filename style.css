@@ -181,7 +181,7 @@ nav a:hover {
 }
 
 .hero{
-    background:linear-gradient(rgba(111,66,193,0.1), rgba(111,66,193,0.1)),url("images/background2.jpg");
+    background:linear-gradient(rgba(111,66,193,0.1), rgba(111,66,193,0.1)),url("background2.jpg");
     background-size: cover;
     background-position: center;
     color: white;
