@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Checkout | ReneeMart</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>🛒ReneeMart</h1>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+
+        <a href="products.html">Products</a>
+
+        <a href="cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </a>
+
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="checkout-section">
+      <h2>Complete Your Order</h2>
+
+      <div class="checkout-container">
+        <!-- Customer Details -->
+
+        <div class="checkout-box">
+          <h3>
+            <i class="fa-solid fa-user"></i>
+            Customer Details
+          </h3>
+
+          <input type="text" placeholder="Full Name" />
+
+          <input type="email" placeholder="Email Address" />
+
+          <input type="tel" placeholder="Phone Number" />
+
+          <textarea placeholder="Delivery Address"></textarea>
+        </div>
+
+        <!-- Payment -->
+
+        <div class="checkout-box">
+          <h3>
+            <i class="fa-solid fa-credit-card"></i>
+            Payment Method
+          </h3>
+
+          <label>
+            <input type="radio" name="payment" />
+
+            Mobile Money (MoMo)
+          </label>
+
+          <br /><br />
+
+          <label>
+            <input type="radio" name="payment" />
+
+            Debit/Credit Card
+          </label>
+
+          <br /><br />
+
+          <label>
+            <input type="radio" name="payment" />
+
+            Cash on Delivery
+          </label>
+
+          <h3 class="summary-title">Order Summary</h3>
+
+          <p>
+            Items:
+            <span id="checkout-items"> 0 </span>
+          </p>
+
+          <p>
+            Total:
+
+            <strong> GH₵0 </strong>
+          </p>
+
+          <button>Place Order</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>©2026 ReneeMart. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

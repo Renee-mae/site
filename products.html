@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Products | ReneeMart</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>🛒ReneeMart</h1>
+      </div>
+
+      <nav>
+        <a href="index.html">Home</a>
+
+        <a href="products.html">Products</a>
+
+        <a href="cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </a>
+
+        <a href="register.html">Register</a>
+
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <section class="product-page">
+      <h2>Our Products</h2>
+
+      <p>Explore quality products selected specially for you.</p>
+
+      <!-- Search -->
+
+      <div class="product-search">
+        <input type="text" placeholder="Search products..." />
+
+        <button>
+          <i class="fa-solid fa-search"></i>
+
+          Search
+        </button>
+      </div>
+
+      <!-- Categories -->
+
+      <div class="filter-buttons">
+        <button>All</button>
+
+        <button>Fashion</button>
+
+        <button>Shoes</button>
+
+        <button>Bags</button>
+
+        <button>Watches</button>
+      </div>
+
+      <div class="product-container">
+        <div class="card">
+          <span class="discount"> -20% </span>
+
+          <img src="images/shoe.jpg" />
+
+          <h3>Nike Sneakers</h3>
+
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+
+          <p>GH₵250</p>
+
+          <button onclick="addCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+          <span class="discount"> -15% </span>
+
+          <img src="images/shirt.jpg" />
+
+          <h3>White T-Shirt</h3>
+
+          <div class="rating">⭐⭐⭐⭐</div>
+
+          <p>GH₵120</p>
+
+          <button onclick="addCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="images/watch.jpg" />
+
+          <h3>POEDAGAR Watch</h3>
+
+          <div class="rating">⭐⭐⭐⭐⭐</div>
+
+          <p>GH₵1000</p>
+
+          <button onclick="addCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+          <img src="images/bag.jpg" />
+
+          <h3>Luxury Bag</h3>
+
+          <div class="rating">⭐⭐⭐⭐</div>
+
+          <p>GH₵400</p>
+
+          <button onclick="addCart()">Add To Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>©2026 ReneeMart. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
