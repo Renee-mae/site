@@ -14,7 +14,15 @@ html {
 }
 
 body {
-    background: linear-gradient(135deg, #16002b, #3b0066, #7200ff);
+    background: 
+        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+        url("images/background2.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     color: white;
     min-height: 100vh;
 }
@@ -180,10 +188,8 @@ nav a:hover {
 
 }
 
-.hero{
-    background:linear-gradient(rgba(111,66,193,0.1), rgba(111,66,193,0.1)),url("background2.jpg");
-    background-size: cover;
-    background-position: center;
+.hero {
+    background: transparent;
     color: white;
     padding: 100px;
     text-align: center;
